@@ -1,0 +1,54 @@
+
+section{
+    display: flex;
+    height: 380px;
+    width: 230px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 30px 15px 15px 50px;
+}
+P{
+    color: aliceblue;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(16, 148, 224);
+    border-radius: 50ch;
+}
+.alias{
+    color: rgb(17, 172, 211);
+}
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.usuarios{
+    background-color: aliceblue;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+.buscador{
+    margin-top: 15px;
+}
+.usu{
+    color: black;
+}
+.funsiones{
+    flex-direction: row;
+    margin-left: -45px;
+
+}
+.editar{
+    color: black;
+}
