@@ -14,7 +14,7 @@ export default function Eliminar({informacion, setInformacion}) {
        <Input className="buscador" htmlSize={30} width='auto' type="text" placeholder={" user"} value={usuario} onChange={(e) => setUsuario(e.target.value)} />
               <ol>
               {informacion.map((prod, idx) =>{
-                     return <li key={idx}>{prod[1]}</li>
+                     return <li key={idx}>{(prod[1].length <= 10) ? prod[1] : prod[1].slice(0, 10) + '...'}</li>
               } )}
               </ol>
               <Button size='xs' colorScheme='teal' onClick={fnDelete}>eliminar</Button>
